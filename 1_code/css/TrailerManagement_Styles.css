@@ -1,0 +1,219 @@
+/* 	
+Trailer Management Style sheet 
+Gregory Stone
+INFO-C451 System Implementation
+Trailer Management System Project
+*/
+
+body {
+	font-family:"Lucida Console", Monaco, monospace;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+.bar {
+	background-color:#000000;
+	height:10px;
+	width:900px;
+	clear:both;
+}
+
+.barSub {
+	background-color:#000000;
+	height:50px;
+	width:400px;
+	clear:both;
+}
+
+#header {	
+	background-color:#63757C;
+	padding:0px 0px 20px 0px;
+	float:left;
+	height:50px;
+	width:900px;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+#headerSub {	
+	background-color:#63757C;
+	padding:0px 0px 20px 0px;
+	float:left;
+	height:50px;
+	width:650px;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+#leftNav {
+	background-color:#E3E3F9;
+	height:520px;
+	width:150px;
+	float:left;
+	border-right: thin solid black;
+}
+
+#leftNavSub {
+	background-color:#E3E3F9;
+	height:370px;
+	width:150px;
+	float:left;
+	border-right: thin solid black;
+}
+
+#leftNav p {
+	margin:10px 0px 10px 10px;
+}
+
+#leftNav p:hover {
+	background-color:white;
+	border: 1px dotted darkgray;
+}
+#logIn {	
+	background-color:#F7F0DF;
+	padding:20px;
+	height:480px;
+	width:860px;
+	float:left;
+	overflow:auto;
+	text-align:center;
+}
+
+a:active {	
+	background-color:white;
+	border: 3px dotted darkgray;
+}
+
+#bodyContent {
+	background-color:#F7F0DF;
+	padding:20px;
+	height:480px;
+	width:709px;
+	float:left;
+	overflow:auto;
+}
+
+#bodyContentSub {
+	background-color:#F7F0DF;
+	height:370px;
+	width:500px;
+	float:left;
+	overflow:auto;
+}
+
+.content {
+	background-color:#F7F0DF;
+	padding:5px;
+	height:450px;
+	width:690px;
+	float:left;
+	overflow:auto;
+}
+
+.contentSub {
+	background-color:#F7F0DF;
+	padding:5px;
+	height:360px;
+	width:490px;
+	float:left;
+	overflow:auto;
+}
+
+#userInfo {
+	background-color:#333333;
+	float:left;
+	height:70px;
+	width:900px;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+#about {
+	color: black;
+	background-color:white;
+	margin: 1cm;
+	padding: 10px;
+	border-width: thick;
+	border-style: ridge;
+	border-radius: 15px;
+}
+
+#reverse {
+	color: white;
+	background-color: black;
+	margin: 1cm;
+	border-width: thick;
+	border-style: ridge;
+	border-radius: 15px;
+}
+
+.loginButton {
+    background-color: #1c87c9;
+    border: 2px solid #1c97c9;
+	border-radius: 10px;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.deleteButton {
+    background-color: white;
+    border: 1px solid gray;
+	border-radius: 5px;
+	width: 15px;
+    color: red;
+	font-weight: bold;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.saveButton {
+    background-color: green;
+    border: 1px solid gray;
+	border-radius: 5px;
+    color: white;
+	font-weight: bold;
+	width: 40px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.checkOutButton {
+    background-color: #1c87c9;
+    border: 1px solid #1c97c9;
+	border-radius: 5px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.logoutButton {
+    background-color: #1c87c9;
+    border: 2px solid #1c97c9;
+	border-radius: 10px;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	float:right;
+    font-size: 20px;
+    margin: 15px 15px 0px 0px;
+    cursor: pointer;
+}
