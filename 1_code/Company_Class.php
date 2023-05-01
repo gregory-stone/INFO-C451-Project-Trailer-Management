@@ -1231,7 +1231,7 @@ class Company {
 			if (mysqli_query($this->Con,$sql)) {
 				echo "Success: Dock door $doorNo created <br />";
 			} else {
-				echo "Error in door creation: " . mysqli_error($this->Con) ." <br />";
+				echo "Error: dock door " . $doorNo ." already exists";
 			}
 		}
 	}
@@ -1274,7 +1274,7 @@ class Company {
 			if (mysqli_query($this->Con,$sql)) {
 				echo "Success: Parking spot $spotNo created <br />";
 			} else {
-				echo "Error in spot creation: " . mysqli_error($this->Con) ." <br />";
+				echo "Error: parking spot " . $spotNo ." already exists";
 			}
 		}
 	}
